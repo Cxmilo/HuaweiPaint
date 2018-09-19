@@ -20,7 +20,7 @@ MonoBehaviour:
   - {fileID: 11478692}
   - {fileID: 11474894}
   StartFilter: {fileID: 11489040}
-  MinSize: {x: 2, y: 2}
+  MinSize: {x: 100, y: 100}
   BaseSize: {x: 100, y: 100}
 --- !u!114 &11425390
 MonoBehaviour:
@@ -155,7 +155,7 @@ MonoBehaviour:
     height: 77
   NextFilter: {fileID: 11431106}
   PointType: -1
-  Alpha: .0500000007
+  Alpha: 0.05
 --- !u!114 &11474894
 MonoBehaviour:
   m_ObjectHideFlags: 1

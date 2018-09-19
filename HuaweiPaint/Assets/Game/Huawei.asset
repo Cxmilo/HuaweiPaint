@@ -13,6 +13,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   UniqueId: Huawei
   startImagePath: 
-  outlinePath: Coloring Pages/Huawei/Outline
-  RegionPath: Coloring Pages/Huawei/Region
-  IconPath: Coloring Pages/Huawei/Region
+  outlinePath: outline
+  RegionPath: region
+  IconPath: icon
