@@ -30,7 +30,7 @@ public class GameManager : MonoBehaviour {
     {
         startScreen.OpenCloseObjectAnimation();
         instructionScreen.OpenCloseObjectAnimation();
-        StartCoroutine(InactivityRutine());
+       // StartCoroutine(InactivityRutine());
     }
 
     public void OnInstructionScreen ()
@@ -50,7 +50,7 @@ public class GameManager : MonoBehaviour {
     {
         previewImageScreen.OpenCloseObjectAnimation();
         GameOverScreen.OpenCloseObjectAnimation();
-        Invoke("ResetGame", 10f);
+        Invoke("ResetGame", 120f);
 
     }
 
@@ -81,7 +81,7 @@ public class GameManager : MonoBehaviour {
 
     private void Update()
     {
-        if (Input.anyKeyDown) { inactivityTime = 0; }
+        if (Input.anyKey) { inactivityTime = 0; }
     }
 
     bool takeHiResShot = false;
@@ -139,7 +139,7 @@ public class GameManager : MonoBehaviour {
         paintScreen.SetActive(false);
     }
 
-    float inactivityTime;
+    public float inactivityTime;
     IEnumerator InactivityRutine ()
     {
         while (inactivityTime < 10)
