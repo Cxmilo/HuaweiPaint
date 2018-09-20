@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Name: Huawei
   m_EditorClassIdentifier: 
   UniqueId: Huawei
-  startImagePath: 
-  outlinePath: outline
-  RegionPath: region
+  startImagePath: PureImage
+  outlinePath: Outline
+  RegionPath: Region
   IconPath: icon

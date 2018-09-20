@@ -6,6 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/PaintCraft/Demo/ColoringBook/ColoringBook.unity
-    guid: 222e0235518ff4673abc49b02170a677
+    path: Assets/Game/Main.unity
+    guid: 6514093b588ba744c992bed891f39f50
   m_configObjects: {}
