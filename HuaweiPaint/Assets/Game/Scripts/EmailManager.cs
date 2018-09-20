@@ -67,7 +67,7 @@ public class EmailManager : MonoBehaviour {
 
             if (useTroniksServer)
             {
-                ComposeMail(mail, "eventos@troniks.me", "TU DISEÑO HUAWEI", GameInfoManager.playerEmail);
+                ComposeMail(mail, "eventos@troniks.me", "RETO HUAWEI LASER Y9", GameInfoManager.playerEmail);
                 SendSmtp(mail);
             }else
             {
