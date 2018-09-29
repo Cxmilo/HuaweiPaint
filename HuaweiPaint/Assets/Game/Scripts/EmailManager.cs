@@ -97,7 +97,7 @@ public class EmailManager : MonoBehaviour {
         Debug.Log("total Attachments : " + mail.Attachments.Count);
     }
 
-    private static void SendSmtp(MailMessage mail, string smtpClient = "smtp.webfaction.com",int port = 587, string userName = "eventostroniks", string pass = "Troniks2016")
+    private static void SendSmtp(MailMessage mail, string smtpClient = "smtp.webfaction.com",int port = 587, string userName = "eventostroniks", string pass = "3v3nt052018+")
     {
         
         SmtpClient smtpServer = new SmtpClient(smtpClient);
