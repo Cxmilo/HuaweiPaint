@@ -9,10 +9,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8820b1d2e7c56fa4f8625365d4108cc5, type: 3}
-  m_Name: Huawei
+  m_Name: BancoBogota
   m_EditorClassIdentifier: 
-  UniqueId: Huawei
-  startImagePath: PureImage
-  outlinePath: 
-  RegionPath: Region
-  IconPath: icon
+  UniqueId: BancoBogota
+  startImagePath: BancoBogota-06
+  outlinePath: BancoBogota-07
+  RegionPath: BancoBogota-06
+  IconPath: BancoBogota-06
