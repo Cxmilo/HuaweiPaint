@@ -13,6 +13,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   UniqueId: BancoBogota_1
   startImagePath: 
-  outlinePath: Bbog_espacial linea (2)
-  RegionPath: Bbog_espacial (2)
-  IconPath: BancoBogota-06
+  outlinePath: Bbog_espacial linea
+  RegionPath: 'Bbog_espacial '
+  IconPath: 'Bbog_espacial '
