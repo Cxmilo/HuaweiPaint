@@ -24,7 +24,10 @@ public class GameManager : MonoBehaviour {
 
     public Camera previewCamera;
 
-    
+    public void Awake ()
+    {
+               
+    }
 
     public void OnStartScreenClick ()
     {

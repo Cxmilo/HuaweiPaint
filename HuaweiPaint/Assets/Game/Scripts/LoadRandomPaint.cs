@@ -15,9 +15,14 @@ public class LoadRandomPaint : MonoBehaviour {
 		
         if(controller)
         {
-            int randomIndex = Random.Range(0, pageConfig.Length);
-            controller.PageConfig = pageConfig[randomIndex];
+            
+            int paintIndex = PlayerPrefs.GetInt("CurrentIndex",0);
+            Debug.Log("index : " + paintIndex);
+            controller.PageConfig = pageConfig[paintIndex];
             controller.SetActivePageConfig(controller.PageConfig);
+
+            paintIndex = paintIndex < pageConfig.Length - 1 ? (paintIndex+1) : 0;
+            PlayerPrefs.SetInt("CurrentIndex", paintIndex);
         }
 
 

@@ -1467,8 +1467,8 @@ MonoBehaviour:
         m_RotationOrder: 4
       StartPos: {x: -1929, y: 0, z: 0}
       EndPos: {x: 0, y: 0, z: 0}
-      StartWorldPos: {x: -396.46112, y: 221, z: 0}
-      EndWorldPos: {x: 393, y: 221, z: 0}
+      StartWorldPos: {x: -483.98056, y: 245.5, z: 0}
+      EndWorldPos: {x: 393, y: 245.5, z: 0}
     ScalePropetiesAnim:
       scaleEnabled: 0
       TweenCurveEnterScale:
@@ -3406,8 +3406,8 @@ MonoBehaviour:
         m_RotationOrder: 4
       StartPos: {x: -1929, y: 0, z: 0}
       EndPos: {x: 0, y: 0, z: 0}
-      StartWorldPos: {x: -396.46112, y: 221, z: 0}
-      EndWorldPos: {x: 393, y: 221, z: 0}
+      StartWorldPos: {x: -1183.3335, y: 600, z: 0}
+      EndWorldPos: {x: 959.99994, y: 600, z: 0}
     ScalePropetiesAnim:
       scaleEnabled: 0
       TweenCurveEnterScale:
@@ -4083,8 +4083,8 @@ MonoBehaviour:
         m_RotationOrder: 4
       StartPos: {x: -1929, y: 0, z: 0}
       EndPos: {x: 0, y: 0, z: 0}
-      StartWorldPos: {x: -396.46112, y: 221, z: 0}
-      EndWorldPos: {x: 393, y: 221, z: 0}
+      StartWorldPos: {x: -483.98056, y: 245.5, z: 0}
+      EndWorldPos: {x: 393, y: 245.5, z: 0}
     ScalePropetiesAnim:
       scaleEnabled: 0
       TweenCurveEnterScale:
@@ -4843,7 +4843,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1210237340}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7f6e2e372d112f94aacf419f45ff8298, type: 3}
   m_Name: 
@@ -5366,8 +5366,8 @@ MonoBehaviour:
         m_RotationOrder: 4
       StartPos: {x: -1929, y: 0, z: 0}
       EndPos: {x: 0, y: 0, z: 0}
-      StartWorldPos: {x: -396.46112, y: 221, z: 0}
-      EndWorldPos: {x: 393, y: 221, z: 0}
+      StartWorldPos: {x: -483.98056, y: 245.5, z: 0}
+      EndWorldPos: {x: 393, y: 245.5, z: 0}
     ScalePropetiesAnim:
       scaleEnabled: 0
       TweenCurveEnterScale:
@@ -5578,7 +5578,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 424.39, y: 23}
+  m_AnchoredPosition: {x: 424.39062, y: 23}
   m_SizeDelta: {x: 777.23, y: 46.1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1333171260
@@ -6130,7 +6130,7 @@ MonoBehaviour:
   LineConfig: {fileID: 1902582123}
   ColorName: lavender
   ColorNameText: {fileID: 0}
-  Color: {r: 0.9058824, g: 0.27450982, b: 0.18039216, a: 1}
+  Color: {r: 0.9686275, g: 0.6156863, b: 0, a: 1}
 --- !u!114 &1432979989
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6561,10 +6561,10 @@ RectTransform:
   m_Father: {fileID: 836911056}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 1, y: 0}
-  m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -416, y: 242}
-  m_SizeDelta: {x: 300.2, y: 91.9}
+  m_AnchorMin: {x: 0.70666206, y: 0.18888886}
+  m_AnchorMax: {x: 0.86, y: 0.27040738}
+  m_AnchoredPosition: {x: -6.5, y: 4}
+  m_SizeDelta: {x: 6.199951, y: 3.9000244}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1507943567
 MonoBehaviour:
@@ -7832,7 +7832,7 @@ Prefab:
     - target: {fileID: 11469012, guid: 556221c0269df420488f5cebb609a2d5, type: 2}
       propertyPath: PageConfig
       value: 
-      objectReference: {fileID: 11400000, guid: 784d0bed8bae6924a99ddae1fe1e8bef,
+      objectReference: {fileID: 11400000, guid: 5948e6a236df91f45bf9eba8a366a75e,
         type: 2}
     - target: {fileID: 194672, guid: 556221c0269df420488f5cebb609a2d5, type: 2}
       propertyPath: m_IsActive
@@ -8708,8 +8708,8 @@ MonoBehaviour:
         m_RotationOrder: 4
       StartPos: {x: -1929, y: 0, z: 0}
       EndPos: {x: 0, y: 0, z: 0}
-      StartWorldPos: {x: -396.46112, y: 221, z: 0}
-      EndWorldPos: {x: 393, y: 221, z: 0}
+      StartWorldPos: {x: -1183.3335, y: 600, z: 0}
+      EndWorldPos: {x: 959.99994, y: 600, z: 0}
     ScalePropetiesAnim:
       scaleEnabled: 0
       TweenCurveEnterScale:
